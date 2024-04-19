@@ -1,0 +1,2378 @@
+[
+  {
+    "path": "/4EA754C1914D7F6E7BA17406",
+    "alwaysShow": true,
+    "name": "A4EA754C1914D7F6E7BA17406",
+    "meta": {
+      "title": "产品配置管理",
+      "icon": "component",
+      "roles": [
+        "admin"
+      ],
+      "itemName": "产品配置管理",
+      "tblAlias": "密码服务中间件部署二级菜单",
+      "operationID": 0,
+      "resId": 990,
+      "otherProperties": {},
+      "condition": null,
+      "menuLevel": 0,
+      "chartParams": "",
+      "activeMenu": ""
+    },
+    "children": [
+      {
+        "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A1",
+        "meta": {
+          "title": "应用接入服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "应用接入服务",
+          "tblAlias": "应用接入服务配置入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=应用接入服务&isOperatorSingleRec=0&showStyle=0&tblAlias=应用接入服务配置入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=应用接入服务&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A14F4E602780FD7AEF53E36A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A14F4E602780FD7AEF53E36A21677F",
+            "meta": {
+              "title": "低性能端口模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "低性能端口模板",
+              "tblAlias": "密码服务端口模板-HSM无关界面-部署",
+              "operationID": 51,
+              "resId": 1237,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=低性能端口模板&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务端口模板-HSM无关界面-部署&resId=1237&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=低性能端口模板&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A14F4E602780FD63A551657AEF53E3",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A14F4E602780FD63A551657AEF53E3",
+            "meta": {
+              "title": "低性能接入端口",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "低性能接入端口",
+              "tblAlias": "设备无关密码服务接入端口界面",
+              "operationID": 51,
+              "resId": 5,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=低性能接入端口&isOperatorSingleRec=0&showStyle=0&tblAlias=设备无关密码服务接入端口界面&resId=5&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=低性能接入端口&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A19AD8602780FD7AEF53E36A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A19AD8602780FD7AEF53E36A21677F",
+            "meta": {
+              "title": "高性能端口模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "高性能端口模板",
+              "tblAlias": "密码服务端口模板-HSM相关界面-部署",
+              "operationID": 51,
+              "resId": 1237,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=高性能端口模板&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务端口模板-HSM相关界面-部署&resId=1237&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=高性能端口模板&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A19AD8602780FD63A551657AEF53E3",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A19AD8602780FD63A551657AEF53E3",
+            "meta": {
+              "title": "高性能接入端口",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "高性能接入端口",
+              "tblAlias": "密码服务接口启动的内部端口界面",
+              "operationID": 51,
+              "resId": 5,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=高性能接入端口&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务接口启动的内部端口界面&resId=5&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=高性能接入端口&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A17AEF53E36388674376845BC67801670D52A1",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A17AEF53E36388674376845BC67801670D52A1",
+            "meta": {
+              "title": "端口授权的密码服务",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "端口授权的密码服务",
+              "tblAlias": "本地服务端口授权的密码服务界面",
+              "operationID": 51,
+              "resId": 1396,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=端口授权的密码服务&isOperatorSingleRec=0&showStyle=0&tblAlias=本地服务端口授权的密码服务界面&resId=1396&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=端口授权的密码服务&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065E94752863A55165670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065E94752863A55165670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=应用接入服务配置入口&&btnShowStyle=0&&menuGrpName=应用接入服务配置入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=应用接入服务配置入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA174065BC67801670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA174065BC67801670D52A1",
+        "meta": {
+          "title": "密码服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码服务",
+          "tblAlias": "密码服务配置入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务配置入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801670D52A15BC67801670D52A1603B7EBF6A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801670D52A15BC67801670D52A1603B7EBF6A21677F",
+            "meta": {
+              "title": "密码服务总线模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码服务总线模板",
+              "tblAlias": "密码机指令密码服务总线模板界面-部署",
+              "operationID": 51,
+              "resId": 1237,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务总线模板&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机指令密码服务总线模板界面-部署&resId=1237&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务总线模板&&menuGrpName=密码服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801670D52A15BC67801670D52A1603B7EBF",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801670D52A15BC67801670D52A1603B7EBF",
+            "meta": {
+              "title": "密码服务总线",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码服务总线",
+              "tblAlias": "指令相关密码服务总线-基于UID界面",
+              "operationID": 51,
+              "resId": 4,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务总线&isOperatorSingleRec=0&showStyle=0&tblAlias=指令相关密码服务总线-基于UID界面&resId=4&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务总线&&menuGrpName=密码服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码服务配置入口&&btnShowStyle=0&&menuGrpName=密码服务配置入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码服务配置入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A1",
+        "meta": {
+          "title": "密钥管理服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密钥管理服务",
+          "tblAlias": "密钥管理服务配置入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密钥管理服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密钥管理服务配置入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密钥管理服务&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A15BC694A57BA174067AEF53E36A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A15BC694A57BA174067AEF53E36A21677F",
+            "meta": {
+              "title": "密钥管理端口模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密钥管理端口模板",
+              "tblAlias": "密钥管理服务端口配置模板界面-部署",
+              "operationID": 51,
+              "resId": 1237,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密钥管理端口模板&isOperatorSingleRec=0&showStyle=0&tblAlias=密钥管理服务端口配置模板界面-部署&resId=1237&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密钥管理端口模板&&menuGrpName=密钥管理服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A15BC694A57BA174067AEF53E3",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A15BC694A57BA174067AEF53E3",
+            "meta": {
+              "title": "密钥管理端口",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密钥管理端口",
+              "tblAlias": "密钥管理接口启动的服务端口界面",
+              "operationID": 51,
+              "resId": 5,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密钥管理端口&isOperatorSingleRec=0&showStyle=0&tblAlias=密钥管理接口启动的服务端口界面&resId=5&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密钥管理端口&&menuGrpName=密钥管理服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC694A57BA17406670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密钥管理服务配置入口&&btnShowStyle=0&&menuGrpName=密钥管理服务配置入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密钥管理服务配置入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A1",
+        "meta": {
+          "title": "密码机组服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码机组服务",
+          "tblAlias": "密码机组服务配置管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机组服务配置管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组服务&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC46A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC46A21677F",
+            "meta": {
+              "title": "密码机组模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机组模板",
+              "tblAlias": "密码机组服务界面-部署",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组模板&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机组服务界面-部署&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组模板&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC4",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC4",
+            "meta": {
+              "title": "密码机组",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机组",
+              "tblAlias": "密码服务中间件-密码机组界面",
+              "operationID": 51,
+              "resId": 3006,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件-密码机组界面&resId=3006&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC4603B7EBF",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A7EC4603B7EBF",
+            "meta": {
+              "title": "密码机组总线",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机组总线",
+              "tblAlias": "密码机组服务总线-基于UID界面",
+              "operationID": 51,
+              "resId": 4,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组总线&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机组服务总线-基于UID界面&resId=4&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组总线&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A",
+            "meta": {
+              "title": "密码机",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机",
+              "tblAlias": "密码服务中间件-密码机界面",
+              "operationID": 51,
+              "resId": 3006,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件-密码机界面&resId=3006&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A914D7F6E",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A15BC67801673A914D7F6E",
+            "meta": {
+              "title": "密码机配置",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机配置",
+              "tblAlias": "密码机对接的密码机配置-租户界面",
+              "operationID": 51,
+              "resId": 6,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机配置&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机对接的密码机配置-租户界面&resId=6&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机配置&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174065BC67801673A7EC4670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码机组服务配置管理入口&&btnShowStyle=0&&menuGrpName=密码机组服务配置管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码机组服务配置管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1",
+        "meta": {
+          "title": "配置管理服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "配置管理服务",
+          "tblAlias": "配置管理服务配置入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理服务&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理服务配置入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理服务&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1914D7F6E7BA174067AEF53E36A21677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1914D7F6E7BA174067AEF53E36A21677F",
+            "meta": {
+              "title": "配置管理端口模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配置管理端口模板",
+              "tblAlias": "配置管理服务端口配置模板界面-部署",
+              "operationID": 51,
+              "resId": 1237,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理端口模板&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理服务端口配置模板界面-部署&resId=1237&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理端口模板&&menuGrpName=配置管理服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1914D7F6E7BA174067AEF53E3",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A1914D7F6E7BA174067AEF53E3",
+            "meta": {
+              "title": "配置管理端口",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配置管理端口",
+              "tblAlias": "配置管理接口启动的服务端口界面",
+              "operationID": 51,
+              "resId": 5,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理端口&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理接口启动的服务端口界面&resId=5&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理端口&&menuGrpName=配置管理服务配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406914D7F6E7BA17406670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=配置管理服务配置入口&&btnShowStyle=0&&menuGrpName=配置管理服务配置入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=配置管理服务配置入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E",
+        "meta": {
+          "title": "产品基础配置",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "产品基础配置",
+          "tblAlias": "产品基础配置管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=产品基础配置&isOperatorSingleRec=0&showStyle=0&tblAlias=产品基础配置管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=产品基础配置&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E53EF752890E87F7273AF5883",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E53EF752890E87F7273AF5883",
+            "meta": {
+              "title": "可用部署环境",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "可用部署环境",
+              "tblAlias": "密码中间件-开发商部署环境界面",
+              "operationID": 51,
+              "resId": 3061,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=可用部署环境&isOperatorSingleRec=0&showStyle=0&tblAlias=密码中间件-开发商部署环境界面&resId=3061&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=可用部署环境&&menuGrpName=产品基础配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E4EA754C190E87F7273AF5883",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E4EA754C190E87F7273AF5883",
+            "meta": {
+              "title": "产品部署环境",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "产品部署环境",
+              "tblAlias": "密码服务中间件-产品部署环境界面",
+              "operationID": 51,
+              "resId": 3069,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=产品部署环境&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件-产品部署环境界面&resId=3069&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=产品部署环境&&menuGrpName=产品基础配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E4EA754C17F3A77015BC67801673A7EC4",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E4EA754C17F3A77015BC67801673A7EC4",
+            "meta": {
+              "title": "产品缺省密码机组",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "产品缺省密码机组",
+              "tblAlias": "密码中间件部署环境缺省HSM组界面",
+              "operationID": 51,
+              "resId": 1220,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=产品缺省密码机组&isOperatorSingleRec=0&showStyle=0&tblAlias=密码中间件部署环境缺省HSM组界面&resId=1220&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=项目缺省密码机组&&menuGrpName=产品基础配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E7F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA174064EA754C157FA7840914D7F6E7F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=产品基础配置管理入口&&btnShowStyle=0&&menuGrpName=产品基础配置管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=产品基础配置管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E",
+        "meta": {
+          "title": "界面样式配置",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "界面样式配置",
+          "tblAlias": "密码应用设计管理平台样式配置入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=界面样式配置&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用设计管理平台样式配置入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=界面样式配置&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B5DE54F5C754C9762",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B5DE54F5C754C9762",
+            "meta": {
+              "title": "主工作界面",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主工作界面",
+              "tblAlias": "密码应用-主工作界面配置界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主工作界面&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主工作界面配置界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主工作界面&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C976268396570636E96C6",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C976268396570636E96C6",
+            "meta": {
+              "title": "主界面根数据集",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主界面根数据集",
+              "tblAlias": "密码应用-主界面根数据集配置界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主界面根数据集&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主界面根数据集配置界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主界面根数据集&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E8C7EA783DC535568396570636E96C6",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E8C7EA783DC535568396570636E96C6",
+            "meta": {
+              "title": "二级菜单根数据集",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "二级菜单根数据集",
+              "tblAlias": "密码应用-二级菜单根数据集配置界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=二级菜单根数据集&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-二级菜单根数据集配置界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=二级菜单根数据集&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97625FEB63779762677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97625FEB63779762677F",
+            "meta": {
+              "title": "主界面快捷面板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主界面快捷面板",
+              "tblAlias": "密码应用-主界面快捷工作面板界面",
+              "operationID": 51,
+              "resId": 846,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主界面快捷面板&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主界面快捷工作面板界面&resId=846&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主界面快捷面板&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97627EDF8BA16570636E96C6",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97627EDF8BA16570636E96C6",
+            "meta": {
+              "title": "主界面统计数据集",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主界面统计数据集",
+              "tblAlias": "密码应用-主界面统计数据集配置界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主界面统计数据集&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主界面统计数据集配置界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主界面统计数据集&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97628BBE590772B66001",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C97628BBE590772B66001",
+            "meta": {
+              "title": "主界面设备状态",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主界面设备状态",
+              "tblAlias": "密码应用-主界面设备状态数据集界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主界面设备状态&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主界面设备状态数据集界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主界面设备状态&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C976256FE88686570636E96C6",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E4E3B754C976256FE88686570636E96C6",
+            "meta": {
+              "title": "主界面图表数据集",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "主界面图表数据集",
+              "tblAlias": "密码应用-主界面图表界面",
+              "operationID": 51,
+              "resId": 846,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=主界面图表数据集&isOperatorSingleRec=0&showStyle=0&tblAlias=密码应用-主界面图表界面&resId=846&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=主界面图表数据集&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E630967084EFD",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E630967084EFD",
+            "meta": {
+              "title": "按月份",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "按月份",
+              "tblAlias": "单据及报表组件界面-运行",
+              "operationID": 135,
+              "resId": 587,
+              "otherProperties": {
+                "urlParam": "operationID=135&isNeedConfirm=0&itemName=按月份&isOperatorSingleRec=1&showStyle=0&tblAlias=单据及报表组件界面-运行&resId=587&showProgressBar=0&level=9&condition=bllID=splenAppTransCountRptPerDayGraph,reportName=active.tellerName,charts=bar,xaxis=svrName,yaxis=transTotalNum,queryTime=month,startDate=20230401,endDate=20230430&&btnShowStyle=0&&EDITALAIS=报表设计&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "condition": "bllID=splenAppTransCountRptPerDayGraph,reportName=active.tellerName,charts=bar,xaxis=svrName,yaxis=transTotalNum,queryTime=month,startDate=20230401,endDate=20230430",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E7F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976268375F0F914D7F6E7F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码应用设计管理平台样式配置入口&&btnShowStyle=0&&menuGrpName=密码应用设计管理平台样式配置入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码应用设计管理平台样式配置入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E",
+        "alwaysShow": true,
+        "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E",
+        "meta": {
+          "title": "界面风格配置",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "界面风格配置",
+          "tblAlias": "主工作界面样式配置管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=界面风格配置&isOperatorSingleRec=0&showStyle=0&tblAlias=主工作界面样式配置管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=界面风格配置&&menuGrpName=密码服务中间件部署二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E754C97625FEB637783DC5355",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E754C97625FEB637783DC5355",
+            "meta": {
+              "title": "界面快捷菜单",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "界面快捷菜单",
+              "tblAlias": "界面服务::界面的快捷菜单界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=界面快捷菜单&isOperatorSingleRec=0&showStyle=0&tblAlias=界面服务::界面的快捷菜单界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=界面快捷菜单&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E5FEB637783DC5355630994AE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E5FEB637783DC5355630994AE",
+            "meta": {
+              "title": "快捷菜单按钮",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "快捷菜单按钮",
+              "tblAlias": "界面服务::界面快捷菜单按钮界面",
+              "operationID": 51,
+              "resId": 1416,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=快捷菜单按钮&isOperatorSingleRec=0&showStyle=0&tblAlias=界面服务::界面快捷菜单按钮界面&resId=1416&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=快捷菜单按钮&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E6570636E91CF5C55793A9762677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E6570636E91CF5C55793A9762677F",
+            "meta": {
+              "title": "数据量展示面板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "数据量展示面板",
+              "tblAlias": "界面的数据量展示面板界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据量展示面板&isOperatorSingleRec=0&showStyle=0&tblAlias=界面的数据量展示面板界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据量展示面板&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E5C55793A9762677F6570636E96C6",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E5C55793A9762677F6570636E96C6",
+            "meta": {
+              "title": "展示面板数据集",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "展示面板数据集",
+              "tblAlias": "界面数据量展示面板的数据集界面",
+              "operationID": 51,
+              "resId": 1414,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=展示面板数据集&isOperatorSingleRec=0&showStyle=0&tblAlias=界面数据量展示面板的数据集界面&resId=1414&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=展示面板数据集&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E56FE88685C55793A9762677F",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E56FE88685C55793A9762677F",
+            "meta": {
+              "title": "图表展示面板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "图表展示面板",
+              "tblAlias": "界面的图表展示面板界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=图表展示面板&isOperatorSingleRec=0&showStyle=0&tblAlias=界面的图表展示面板界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=图表展示面板&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E56FE88685C55793A9762677F56FE8868",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E56FE88685C55793A9762677F56FE8868",
+            "meta": {
+              "title": "图表展示面板图表",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "图表展示面板图表",
+              "tblAlias": "界面图表展示面板展示的图表界面",
+              "operationID": 51,
+              "resId": 1414,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=图表展示面板图表&isOperatorSingleRec=0&showStyle=0&tblAlias=界面图表展示面板展示的图表界面&resId=1414&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=图表展示面板图表&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E754C97628FDB5165524D768468396570636E",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E754C97628FDB5165524D768468396570636E",
+            "meta": {
+              "title": "界面进入前的根数据",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "界面进入前的根数据",
+              "tblAlias": "界面服务::界面的根数据配置界面",
+              "operationID": 51,
+              "resId": 1221,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=界面进入前的根数据&isOperatorSingleRec=0&showStyle=0&tblAlias=界面服务::界面的根数据配置界面&resId=1221&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=界面进入前的根数据&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E7F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C1914D7F6E7BA17406754C976298CE683C914D7F6E7F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=主工作界面样式配置管理入口&&btnShowStyle=0&&menuGrpName=主工作界面样式配置管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=主工作界面样式配置管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/5E7353F05BC694A57BA17406",
+    "alwaysShow": true,
+    "name": "A5E7353F05BC694A57BA17406",
+    "meta": {
+      "title": "平台密钥管理",
+      "icon": "form",
+      "roles": [
+        "admin"
+      ],
+      "itemName": "平台密钥管理",
+      "tblAlias": "密码平台-平台级密钥管理二级菜单",
+      "operationID": 0,
+      "resId": 990,
+      "otherProperties": {},
+      "condition": null,
+      "menuLevel": 0,
+      "chartParams": "",
+      "activeMenu": ""
+    },
+    "children": [
+      {
+        "path": "/5E7353F05BC694A57BA174065BA162795BC694A575338BF7",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA174065BA162795BC694A575338BF7",
+        "meta": {
+          "title": "审批密钥申请",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "审批密钥申请",
+          "tblAlias": "平台级的密钥操作-审批申请界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=审批密钥申请&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-审批申请界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=审批密钥申请&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA17406968F673A751F62105BC694A5",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA17406968F673A751F62105BC694A5",
+        "meta": {
+          "title": "随机生成密钥",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "随机生成密钥",
+          "tblAlias": "平台级的密钥操作-随机生成界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=随机生成密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-随机生成界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=随机生成密钥&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA174065BFC51655BF979F05BC694A5",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA174065BFC51655BF979F05BC694A5",
+        "meta": {
+          "title": "导入对称密钥",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "导入对称密钥",
+          "tblAlias": "平台级的密钥操作-导入对称密钥界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=导入对称密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-导入对称密钥界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=导入对称密钥&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA174065F5551654C4D4B52A05BC676845BC66587",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA174065F5551654C4D4B52A05BC676845BC66587",
+        "meta": {
+          "title": "录入LMK加密的密文",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "录入LMK加密的密文",
+          "tblAlias": "平台级的密钥操作-录入LMK加密的密文界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=录入LMK加密的密文&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-录入LMK加密的密文界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=录入LMK加密的密文&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA1740651C659075BC694A562104EFD",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA1740651C659075BC694A562104EFD",
+        "meta": {
+          "title": "准备密钥成份",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "准备密钥成份",
+          "tblAlias": "平台级的密钥操作-准备成份界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=准备密钥成份&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-准备成份界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=准备密钥成份&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA174065F55516548534D5BC694A5",
+        "alwaysShow": false,
+        "name": "A5E7353F05BC694A57BA174065F55516548534D5BC694A5",
+        "meta": {
+          "title": "录入HSM密钥",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "录入HSM密钥",
+          "tblAlias": "平台级的密钥操作-HSM上录入界面",
+          "operationID": 51,
+          "resId": 3065,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=录入HSM密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥操作-HSM上录入界面&resId=3065&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=录入HSM密钥&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B567565",
+        "alwaysShow": true,
+        "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B567565",
+        "meta": {
+          "title": "数据库安全策略",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "数据库安全策略",
+          "tblAlias": "金融140号文数据库加固管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库安全策略&isOperatorSingleRec=0&showStyle=0&tblAlias=金融140号文数据库加固管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库安全策略&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B56756544425B8951687B567565",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B56756544425B8951687B567565",
+            "meta": {
+              "title": "DB安全策略",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "DB安全策略",
+              "tblAlias": "140号文加固的数据库界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=DB安全策略&isOperatorSingleRec=0&showStyle=0&tblAlias=140号文加固的数据库界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=DB安全策略&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B5675656570636E5E935BC694A56A21677F",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B5675656570636E5E935BC694A56A21677F",
+            "meta": {
+              "title": "数据库密钥模板",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "数据库密钥模板",
+              "tblAlias": "140号文加固的数据库-密钥模板界面",
+              "operationID": 51,
+              "resId": 3059,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库密钥模板&isOperatorSingleRec=0&showStyle=0&tblAlias=140号文加固的数据库-密钥模板界面&resId=3059&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库密钥模板&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B567565444288685B8951687B567565",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B567565444288685B8951687B567565",
+            "meta": {
+              "title": "DB表安全策略",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "DB表安全策略",
+              "tblAlias": "140号文加固的DB表界面",
+              "operationID": 51,
+              "resId": 3005,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=DB表安全策略&isOperatorSingleRec=0&showStyle=0&tblAlias=140号文加固的DB表界面&resId=3005&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=DB表安全策略&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B5675654442886857DF5B8951687B567565",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B5675654442886857DF5B8951687B567565",
+            "meta": {
+              "title": "DB表域安全策略",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "DB表域安全策略",
+              "tblAlias": "140号文DB表域加固策略界面",
+              "operationID": 51,
+              "resId": 3054,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=DB表域安全策略&isOperatorSingleRec=0&showStyle=0&tblAlias=140号文DB表域加固策略界面&resId=3054&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=DB表域安全策略&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B567565886857DF7B5675658FD07B97914D7F6E",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B567565886857DF7B5675658FD07B97914D7F6E",
+            "meta": {
+              "title": "表域策略运算配置",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "表域策略运算配置",
+              "tblAlias": "DB表域保护策略运算配置界面",
+              "operationID": 51,
+              "resId": 1385,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=表域策略运算配置&isOperatorSingleRec=0&showStyle=0&tblAlias=DB表域保护策略运算配置界面&resId=1385&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=表域策略运算配置&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174066570636E5E935B8951687B5675657F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174066570636E5E935B8951687B5675657F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=金融140号文数据库加固管理入口&&btnShowStyle=0&&menuGrpName=金融140号文数据库加固管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=金融140号文数据库加固管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/5E7353F05BC694A57BA174065E7353F07EA75BC694A568636848",
+        "alwaysShow": true,
+        "name": "A5E7353F05BC694A57BA174065E7353F07EA75BC694A568636848",
+        "meta": {
+          "title": "平台级密钥档案",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "平台级密钥档案",
+          "tblAlias": "平台级密钥档案管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=平台级密钥档案&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级密钥档案管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=平台级密钥档案&&menuGrpName=密码平台-平台级密钥管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485BC67801673A7EC45BC694A5",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485BC67801673A7EC45BC694A5",
+            "meta": {
+              "title": "密码机组密钥",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机组密钥",
+              "tblAlias": "密码机组的密钥界面",
+              "operationID": 51,
+              "resId": 3001,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机组的密钥界面&resId=3001&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组密钥&&menuGrpName=平台级密钥档案管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485BC67801673A5BC694A5",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485BC67801673A5BC694A5",
+            "meta": {
+              "title": "密码机密钥",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "密码机密钥",
+              "tblAlias": "密码机的密钥界面",
+              "operationID": 51,
+              "resId": 3001,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机的密钥界面&resId=3001&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机密钥&&menuGrpName=平台级密钥档案管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485E7353F07EA75BC694A5",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368485E7353F07EA75BC694A5",
+            "meta": {
+              "title": "平台级密钥",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "平台级密钥",
+              "tblAlias": "平台级的密钥界面",
+              "operationID": 51,
+              "resId": 3001,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=平台级密钥&isOperatorSingleRec=0&showStyle=0&tblAlias=平台级的密钥界面&resId=3001&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=平台级密钥&&menuGrpName=平台级密钥档案管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368487F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A5E7353F05BC694A57BA174065E7353F07EA75BC694A5686368487F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=平台级密钥档案管理入口&&btnShowStyle=0&&menuGrpName=平台级密钥档案管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=平台级密钥档案管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/4EA754C151FA5382914D7F6E",
+    "alwaysShow": true,
+    "name": "A4EA754C151FA5382914D7F6E",
+    "meta": {
+      "title": "产品出厂配置",
+      "icon": "excel",
+      "roles": [
+        "admin"
+      ],
+      "itemName": "产品出厂配置",
+      "tblAlias": "密码服务中间件出厂配置管理二级菜单",
+      "operationID": 0,
+      "resId": 990,
+      "otherProperties": {},
+      "condition": null,
+      "menuLevel": 0,
+      "chartParams": "",
+      "activeMenu": ""
+    },
+    "children": [
+      {
+        "path": "/4EA754C151FA5382914D7F6E7BA1740651FA5382914D7F6E6A21677F",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E7BA1740651FA5382914D7F6E6A21677F",
+        "meta": {
+          "title": "管理出厂配置模板",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "管理出厂配置模板",
+          "tblAlias": "密码机指令密码服务总线模板界面-部署",
+          "operationID": 16,
+          "resId": 1237,
+          "otherProperties": {
+            "urlParam": "operationID=16&isNeedConfirm=0&itemName=管理出厂配置模板&isOperatorSingleRec=1&showStyle=0&tblAlias=密码机指令密码服务总线模板界面-部署&resId=1237&showProgressBar=0&level=9&condition=companyName=active.TERMOWNER,projectName=active.SRLID,DISPLAYFIRSTNODE=1,TREEROOTSRLID=Splenwise密码服务中间件,USERINTERFACENAME=树目录管理密码服务中间件出厂配置界面,NODEID=密码服务中间件产品,displayRecInfo=0,CHILDCMDID=1,&&btnShowStyle=0&&EDITALAIS=密码服务总线模板&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "condition": "companyName=active.TERMOWNER,projectName=active.SRLID,DISPLAYFIRSTNODE=1,TREEROOTSRLID=Splenwise密码服务中间件,USERINTERFACENAME=树目录管理密码服务中间件出厂配置界面,NODEID=密码服务中间件产品,displayRecInfo=0,CHILDCMDID=1,",
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E4EA754C151FA53827F3A77014FE1606F",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E4EA754C151FA53827F3A77014FE1606F",
+        "meta": {
+          "title": "产品出厂缺省信息",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "产品出厂缺省信息",
+          "tblAlias": "产品出厂缺省信息界面",
+          "operationID": 51,
+          "resId": 11,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=产品出厂缺省信息&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂缺省信息界面&resId=11&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=产品出厂缺省信息&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801670D52A14E2D95F44EF6",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801670D52A14E2D95F44EF6",
+        "meta": {
+          "title": "密码服务中间件",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码服务中间件",
+          "tblAlias": "密码服务中间件产品界面",
+          "operationID": 51,
+          "resId": 3002,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务中间件&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件产品界面&resId=3002&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务中间件&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801673A63074EE4670D52A1",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801673A63074EE4670D52A1",
+        "meta": {
+          "title": "密码机指令服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码机指令服务",
+          "tblAlias": "密码机指令服务界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机指令服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机指令服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机指令服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801670D52A1",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801670D52A1",
+        "meta": {
+          "title": "密码服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码服务",
+          "tblAlias": "密码服务界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801670D52A163A553E3",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801670D52A163A553E3",
+        "meta": {
+          "title": "密码服务接口",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码服务接口",
+          "tblAlias": "密码服务中间件-密码服务接口界面",
+          "operationID": 51,
+          "resId": 3009,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码服务接口&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件-密码服务接口界面&resId=3009&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码服务接口&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC694A57BA17406670D52A1",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC694A57BA17406670D52A1",
+        "meta": {
+          "title": "密钥管理服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密钥管理服务",
+          "tblAlias": "密钥管理服务界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密钥管理服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密钥管理服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密钥管理服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801673A7EC4670D52A1",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801673A7EC4670D52A1",
+        "meta": {
+          "title": "密码机组服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码机组服务",
+          "tblAlias": "密码机组服务界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机组服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机组服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机组服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5BC67801673A670D52A1",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5BC67801673A670D52A1",
+        "meta": {
+          "title": "密码机服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "密码机服务",
+          "tblAlias": "密码机服务界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=密码机服务&isOperatorSingleRec=0&showStyle=0&tblAlias=密码机服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=密码机服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E5E7353F049547EC44EF6",
+        "alwaysShow": false,
+        "name": "A4EA754C151FA5382914D7F6E5E7353F049547EC44EF6",
+        "meta": {
+          "title": "平台IT组件",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "平台IT组件",
+          "tblAlias": "密码服务中间件-平台IT组件界面",
+          "operationID": 51,
+          "resId": 3004,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=平台IT组件&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件-平台IT组件界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=平台IT组件&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": []
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1",
+        "meta": {
+          "title": "配置管理服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "配置管理服务",
+          "tblAlias": "配置管理服务出厂配置管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理服务&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理服务出厂配置管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7F6E7BA17406670D52A1680751C6",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7F6E7BA17406670D52A1680751C6",
+            "meta": {
+              "title": "配置管理服务标准",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配置管理服务标准",
+              "tblAlias": "配置管理服务界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理服务标准&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理服务界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理服务标准&&menuGrpName=配置管理服务出厂配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7BA1670D52A153D18D778D446E90",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7BA1670D52A153D18D778D446E90",
+            "meta": {
+              "title": "配管服务发起资源",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配管服务发起资源",
+              "tblAlias": "产品配置::配置管理服务发起入口资源界面",
+              "operationID": 51,
+              "resId": 3005,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配管服务发起资源&isOperatorSingleRec=0&showStyle=0&tblAlias=产品配置::配置管理服务发起入口资源界面&resId=3005&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配管服务发起资源&&menuGrpName=配置管理服务出厂配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7F6E7BA17406670D52A1",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7F6E7BA17406670D52A1",
+            "meta": {
+              "title": "配置管理服务",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配置管理服务",
+              "tblAlias": "产品配置::配置管理服务界面",
+              "operationID": 51,
+              "resId": 1410,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配置管理服务&isOperatorSingleRec=0&showStyle=0&tblAlias=产品配置::配置管理服务界面&resId=1410&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配置管理服务&&menuGrpName=配置管理服务出厂配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7BA1684667B663A7523653C26570",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A1914D7BA1684667B663A7523653C26570",
+            "meta": {
+              "title": "配管框架控制参数",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "配管框架控制参数",
+              "tblAlias": "配置管理服务框架控制参数界面",
+              "operationID": 51,
+              "resId": 11,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=配管框架控制参数&isOperatorSingleRec=0&showStyle=0&tblAlias=配置管理服务框架控制参数界面&resId=11&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=配管框架控制参数&&menuGrpName=配置管理服务出厂配置管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E914D7F6E7BA17406670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=配置管理服务出厂配置管理入口&&btnShowStyle=0&&menuGrpName=配置管理服务出厂配置管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=配置管理服务出厂配置管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A1",
+        "meta": {
+          "title": "数据库服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "数据库服务",
+          "tblAlias": "产品出厂数据库管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库服务&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂数据库管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A14EA754C16570636E5E93",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A14EA754C16570636E5E93",
+            "meta": {
+              "title": "产品数据库",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "产品数据库",
+              "tblAlias": "产品出厂数据库管理界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=产品数据库&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂数据库管理界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=产品数据库&&menuGrpName=产品出厂数据库管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E9388687C7B578B",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E9388687C7B578B",
+            "meta": {
+              "title": "数据库表类型",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "数据库表类型",
+              "tblAlias": "产品出厂数据库表类型界面",
+              "operationID": 51,
+              "resId": 1468,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库表类型&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂数据库表类型界面&resId=1468&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库表类型&&menuGrpName=产品出厂数据库管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E938868",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E938868",
+            "meta": {
+              "title": "数据库表",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "数据库表",
+              "tblAlias": "产品出厂数据库表界面",
+              "operationID": 51,
+              "resId": 3005,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库表&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂数据库表界面&resId=3005&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库表&&menuGrpName=产品出厂数据库管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E938868670D52A1",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A16570636E5E938868670D52A1",
+            "meta": {
+              "title": "数据库表服务",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "数据库表服务",
+              "tblAlias": "产品出厂数据库表服务界面",
+              "operationID": 51,
+              "resId": 1410,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=数据库表服务&isOperatorSingleRec=0&showStyle=0&tblAlias=产品出厂数据库表服务界面&resId=1410&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=数据库表服务&&menuGrpName=产品出厂数据库管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E6570636E5E93670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E6570636E5E93670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=产品出厂数据库管理入口&&btnShowStyle=0&&menuGrpName=产品出厂数据库管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=产品出厂数据库管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E547D4EE4884C670D52A1",
+        "alwaysShow": true,
+        "name": "A4EA754C151FA5382914D7F6E547D4EE4884C670D52A1",
+        "meta": {
+          "title": "命令行服务",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "命令行服务",
+          "tblAlias": "命令行服务管理入口",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=命令行服务&isOperatorSingleRec=0&showStyle=0&tblAlias=命令行服务管理入口&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=命令行服务&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C151FA5382914D7F6E547D4EE4884C670D52A1547D4EE4884C547D4EE4",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E547D4EE4884C670D52A1547D4EE4884C547D4EE4",
+            "meta": {
+              "title": "命令行命令",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "命令行命令",
+              "tblAlias": "产品的命令行命令管理界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=命令行命令&isOperatorSingleRec=0&showStyle=0&tblAlias=产品的命令行命令管理界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=命令行命令&&menuGrpName=命令行服务管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E547D4EE4884C670D52A1547D4EE4884C670D52A1",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E547D4EE4884C670D52A1547D4EE4884C670D52A1",
+            "meta": {
+              "title": "命令行服务",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "命令行服务",
+              "tblAlias": "产品的命令行服务管理界面",
+              "operationID": 51,
+              "resId": 3009,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=命令行服务&isOperatorSingleRec=0&showStyle=0&tblAlias=产品的命令行服务管理界面&resId=3009&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=命令行服务&&menuGrpName=命令行服务管理入口界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E547D4EE4884C670D52A17F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E547D4EE4884C670D52A17F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=命令行服务管理入口&&btnShowStyle=0&&menuGrpName=命令行服务管理入口界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=命令行服务管理入口",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/4EA754C151FA5382914D7F6E89D282727BA17406",
+        "alwaysShow": true,
+        "name": "A4EA754C151FA5382914D7F6E89D282727BA17406",
+        "meta": {
+          "title": "角色管理",
+          "icon": "",
+          "roles": [
+            "admin"
+          ],
+          "itemName": "角色管理",
+          "tblAlias": "密码服务中间件部署角色出厂配置管理",
+          "operationID": 51,
+          "resId": 990,
+          "otherProperties": {
+            "urlParam": "operationID=51&isNeedConfirm=0&itemName=角色管理&isOperatorSingleRec=0&showStyle=0&tblAlias=密码服务中间件部署角色出厂配置管理&resId=990&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=角色管理&&menuGrpName=密码服务中间件出厂配置管理二级菜单&"
+          },
+          "menuLevel": 1,
+          "chartParams": "",
+          "activeMenu": ""
+        },
+        "children": [
+          {
+            "path": "/4EA754C151FA5382914D7F6E89D282727BA17406673A67847C7B578B",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E89D282727BA17406673A67847C7B578B",
+            "meta": {
+              "title": "机构类型",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "机构类型",
+              "tblAlias": "密码中间件-部署-机构类型界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=机构类型&isOperatorSingleRec=0&showStyle=0&tblAlias=密码中间件-部署-机构类型界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=机构类型&&menuGrpName=密码服务中间件部署角色出厂配置管理界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E89D282727BA1740664CD4F5C89D28272",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E89D282727BA1740664CD4F5C89D28272",
+            "meta": {
+              "title": "操作角色",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "操作角色",
+              "tblAlias": "密码中间件-部署-操作员角色界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=操作角色&isOperatorSingleRec=0&showStyle=0&tblAlias=密码中间件-部署-操作员角色界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=操作角色&&menuGrpName=密码服务中间件部署角色出厂配置管理界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E89D282727BA174068EAB4EFD8BA48BC18F7D4F53",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E89D282727BA174068EAB4EFD8BA48BC18F7D4F53",
+            "meta": {
+              "title": "身份认证载体",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "身份认证载体",
+              "tblAlias": "密码中间件-部署-身份载体界面",
+              "operationID": 51,
+              "resId": 3004,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=身份认证载体&isOperatorSingleRec=0&showStyle=0&tblAlias=密码中间件-部署-身份载体界面&resId=3004&showProgressBar=0&level=9&&btnShowStyle=0&&EDITALAIS=身份认证载体&&menuGrpName=密码服务中间件部署角色出厂配置管理界面右键菜单&"
+              },
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          },
+          {
+            "path": "/4EA754C151FA5382914D7F6E89D282727BA174067F168F91672C89C656FE",
+            "alwaysShow": false,
+            "name": "A4EA754C151FA5382914D7F6E89D282727BA174067F168F91672C89C656FE",
+            "meta": {
+              "title": "编辑本视图",
+              "icon": "",
+              "roles": [
+                "admin"
+              ],
+              "itemName": "编辑本视图",
+              "tblAlias": "viewDef",
+              "operationID": 51,
+              "resId": 0,
+              "otherProperties": {
+                "urlParam": "operationID=51&isNeedConfirm=0&itemName=编辑本视图&isOperatorSingleRec=0&showStyle=0&tblAlias=viewDef&resId=0&showProgressBar=0&level=9&condition=mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码服务中间件部署角色出厂配置管理&&btnShowStyle=0&&menuGrpName=密码服务中间件部署角色出厂配置管理界面右键菜单&"
+              },
+              "condition": "mainMenuName=Splenwise密码服务中间件部署管理主界面,viewName=密码服务中间件部署角色出厂配置管理",
+              "menuLevel": 2,
+              "chartParams": "",
+              "activeMenu": ""
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

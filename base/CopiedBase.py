@@ -6,9 +6,11 @@ from base import login
 def get_copied_base_message(page, this_page, view_name):
     origin_view_name = view_name
 
+    this_page.locator('#intermenu .muenBtn').get_by_text('编辑本视图').click()
+    page.wait_for_timeout(1000)
     this_page.locator('td #viewName').fill(origin_view_name)
     this_page.locator('.subBar .buttonContent').get_by_text('精确查询').click()
-    page.wait_for_timeout(2000)
+    page.wait_for_timeout(1000)
     tr_rows = this_page.locator('.gridScroller .sortable tr').all()  # 定位到表格的行
     table_rows_text = []
     for row in tr_rows:
@@ -19,12 +21,12 @@ def get_copied_base_message(page, this_page, view_name):
                 cell_values.append(cell.locator('div').inner_text())
 
         # cell_values = [cell.inner_text() for cell in cells]  # 获取每个单元格的文本
-        print(cell_values)  # 在终端中打印单元格的值
+        # print(cell_values)  # 在终端中打印单元格的值
         table_rows_text.append(cell_values)
 
-    print('table_rows_text', table_rows_text)
+    # print('table_rows_text', table_rows_text)
     # input('选中一行进行下一步操作：')
-    print(table_rows_text[0])
+    # print(table_rows_text[0])
     # 点击该行进行操作
     tr_rows[0].click()
     this_page.locator('#dataCM td a').get_by_text('设计来源对象').click()

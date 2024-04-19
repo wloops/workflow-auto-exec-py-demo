@@ -22,5 +22,6 @@ def login(url, username, password):
     page.locator('#taskSetting').click()
     # 绑定当前标签页
     this_page = page.locator('.page.unitBox[style="display: block;"]')
-    return page, this_page
+
+    return page, this_page, p
 

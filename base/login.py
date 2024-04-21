@@ -1,12 +1,12 @@
 from playwright.sync_api import sync_playwright
 
 
-def login(url, username, password):
+def login(url, username, password, headless=False):
     # 启动 playwright driver 进程
     p = sync_playwright().start()
 
     # 启动浏览器，返回 Browser 类型对象
-    browser = p.chromium.launch(headless=False, args=["--start-maximized"])
+    browser = p.chromium.launch(headless=headless, args=["--start-maximized"])
 
     # 创建新页面，返回 Page 类型对象
     page = browser.new_page(no_viewport=True)

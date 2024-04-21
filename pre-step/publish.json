@@ -1,0 +1,22 @@
+{
+  "project_model": {
+    "label": "型号",
+    "value": "Splenwise密码服务中间件"
+  },
+  "business_name": {
+    "label": "业务",
+    "value": "密码服务中间件::部署管理"
+  },
+  "it_unit_name": {
+    "label": "IT组件",
+    "value": "密码服务中间件部署管理工作站"
+  },
+  "it_unit_abbr": {
+    "label": "IT组件别名",
+    "value": "密码服务中间件部署管理工作站"
+  },
+  "dest_env": {
+    "label": "发布目标环境",
+    "value": "3.4.ucspodbc"
+  }
+}

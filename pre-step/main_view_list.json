@@ -1,0 +1,570 @@
+[
+    {
+        "base_view_name": "密码服务端口模板-HSM无关界面-部署",
+        "base_view_name_abbr": "低性能端口模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务端口配置模板-HSM无关"
+    },
+    {
+        "base_view_name": "设备无关密码服务接入端口界面",
+        "base_view_name_abbr": "低性能接入端口",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuSocketSvrConf",
+        "factory": "软件开发解决方案",
+        "object_name": "设备无关密码服务接入端口"
+    },
+    {
+        "base_view_name": "密码服务端口模板-HSM相关界面-部署",
+        "base_view_name_abbr": "高性能端口模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务端口配置模板-HSM相关"
+    },
+    {
+        "base_view_name": "密码服务接口启动的内部端口界面",
+        "base_view_name_abbr": "高性能接入端口",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuSocketSvrConf",
+        "factory": "睿颢软件开发框架",
+        "object_name": "密码服务接口启动的内部服务端口"
+    },
+    {
+        "base_view_name": "本地服务端口授权的密码服务界面",
+        "base_view_name_abbr": "端口授权的密码服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "localSckSvrAuthService",
+        "factory": "金融交易安全系统",
+        "object_name": "本地服务端口授权的服务"
+    },
+    {
+        "base_view_name": "密码机指令密码服务总线模板界面-部署",
+        "base_view_name_abbr": "密码服务总线模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机指令密码服务总线模板"
+    },
+    {
+        "base_view_name": "指令相关密码服务总线-基于UID界面",
+        "base_view_name_abbr": "密码服务总线",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuServiceChanelConf",
+        "factory": "睿颢软件开发框架",
+        "object_name": "指令相关密码服务总线-基于UID"
+    },
+    {
+        "base_view_name": "密钥管理服务端口配置模板界面-部署",
+        "base_view_name_abbr": "密钥管理端口模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "密钥管理服务端口配置模板"
+    },
+    {
+        "base_view_name": "密钥管理接口启动的服务端口界面",
+        "base_view_name_abbr": "密钥管理端口",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuSocketSvrConf",
+        "factory": "睿颢软件开发框架",
+        "object_name": "密钥管理接口启动的服务端口"
+    },
+    {
+        "base_view_name": "密码机组服务界面-部署",
+        "base_view_name_abbr": "密码机组模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机组服务"
+    },
+    {
+        "base_view_name": "密码服务中间件-密码机组界面",
+        "base_view_name_abbr": "密码机组",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompInst",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务中间件-密码机组"
+    },
+    {
+        "base_view_name": "密码机组服务总线-基于UID界面",
+        "base_view_name_abbr": "密码机组总线",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuServiceChanelConf",
+        "factory": "软件开发解决方案",
+        "object_name": "密码机组服务总线-基于UID生成ID"
+    },
+    {
+        "base_view_name": "密码服务中间件-密码机界面",
+        "base_view_name_abbr": "密码机",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompInst",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务中间件-密码机"
+    },
+    {
+        "base_view_name": "密码机对接的密码机配置-租户界面",
+        "base_view_name_abbr": "密码机配置",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuSocketClientConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机对接的密码机配置-租户"
+    },
+    {
+        "base_view_name": "配置管理服务端口配置模板界面-部署",
+        "base_view_name_abbr": "配置管理端口模板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "配置管理服务端口配置模板"
+    },
+    {
+        "base_view_name": "配置管理接口启动的服务端口界面",
+        "base_view_name_abbr": "配置管理端口",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "hisuSocketSvrConf",
+        "factory": "软件开发解决方案",
+        "object_name": "配置管理接口启动的服务端口"
+    },
+    {
+        "base_view_name": "密码中间件-开发商部署环境界面",
+        "base_view_name_abbr": "可用部署环境",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjEnvDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码服务中间件-开发商部署环境"
+    },
+    {
+        "base_view_name": "密码服务中间件-产品部署环境界面",
+        "base_view_name_abbr": "产品部署环境",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjRunEnv",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务中间件-产品部署环境"
+    },
+    {
+        "base_view_name": "密码中间件部署环境缺省HSM组界面",
+        "base_view_name_abbr": "产品缺省密码机组",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjRunEnvConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务中间件部署环境缺省HSM组"
+    },
+    {
+        "base_view_name": "密码应用-主工作界面配置界面",
+        "base_view_name_abbr": "主工作界面",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码应用-主工作界面配置"
+    },
+    {
+        "base_view_name": "密码应用-主界面根数据集配置界面",
+        "base_view_name_abbr": "主界面根数据集",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码应用-主界面根数据集配置"
+    },
+    {
+        "base_view_name": "密码应用-二级菜单根数据集配置界面",
+        "base_view_name_abbr": "二级菜单根数据集",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码应用-二级菜单根数据集配置"
+    },
+    {
+        "base_view_name": "密码应用-主界面快捷工作面板界面",
+        "base_view_name_abbr": "主界面快捷面板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "menuGrpItemDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码应用-主界面快捷工作面板"
+    },
+    {
+        "base_view_name": "密码应用-主界面统计数据集配置界面",
+        "base_view_name_abbr": "主界面统计数据集",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码应用-主界面统计数据集配置"
+    },
+    {
+        "base_view_name": "密码应用-主界面设备状态数据集界面",
+        "base_view_name_abbr": "主界面设备状态",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "密码应用-主界面设备状态数据集配置"
+    },
+    {
+        "base_view_name": "密码应用-主界面图表界面",
+        "base_view_name_abbr": "主界面图表数据集",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "menuGrpItemDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码应用-主界面图表"
+    },
+    {
+        "base_view_name": "单据及报表组件界面-运行",
+        "base_view_name_abbr": "按月份",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "myPrdBllDef",
+        "factory": "软件开发解决方案",
+        "object_name": "单据及报表组件"
+    },
+    {
+        "base_view_name": "界面服务::界面的快捷菜单界面",
+        "base_view_name_abbr": "界面快捷菜单",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "界面服务::界面的快捷菜单"
+    },
+    {
+        "base_view_name": "界面服务::界面快捷菜单按钮界面",
+        "base_view_name_abbr": "快捷菜单按钮",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConfBtn",
+        "factory": "金融交易安全系统",
+        "object_name": "界面服务::界面快捷菜单按钮"
+    },
+    {
+        "base_view_name": "界面的数据量展示面板界面",
+        "base_view_name_abbr": "数据量展示面板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "界面的数据量展示面板"
+    },
+    {
+        "base_view_name": "界面数据量展示面板的数据集界面",
+        "base_view_name_abbr": "展示面板数据集",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConfDataGrp",
+        "factory": "金融交易安全系统",
+        "object_name": "界面数据量展示面板的数据集"
+    },
+    {
+        "base_view_name": "界面的图表展示面板界面",
+        "base_view_name_abbr": "图表展示面板",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "界面服务::界面的图表展示面板"
+    },
+    {
+        "base_view_name": "界面图表展示面板展示的图表界面",
+        "base_view_name_abbr": "图表展示面板图表",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConfDataGrp",
+        "factory": "金融交易安全系统",
+        "object_name": "界面服务::界面图表展示面板展示的图表"
+    },
+    {
+        "base_view_name": "界面服务::界面的根数据配置界面",
+        "base_view_name_abbr": "界面进入前的根数据",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "devPrjCompConf",
+        "factory": "金融交易安全系统",
+        "object_name": "界面服务::界面的根数据配置"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-审批申请界面",
+        "base_view_name_abbr": "审批密钥申请",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-审批申请"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-随机生成界面",
+        "base_view_name_abbr": "随机生成密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-随机生成"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-导入对称密钥界面",
+        "base_view_name_abbr": "导入对称密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-导入对称密钥"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-录入LMK加密的密文界面",
+        "base_view_name_abbr": "录入LMK加密的密文",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-录入LMK加密的密文"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-准备成份界面",
+        "base_view_name_abbr": "准备密钥成份",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-准备成份"
+    },
+    {
+        "base_view_name": "平台级的密钥操作-HSM上录入界面",
+        "base_view_name_abbr": "录入HSM密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueOper",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥操作-HSM上录入"
+    },
+    {
+        "base_view_name": "140号文加固的数据库界面",
+        "base_view_name_abbr": "DB安全策略",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "140号文加固的数据库"
+    },
+    {
+        "base_view_name": "140号文加固的数据库-密钥模板界面",
+        "base_view_name_abbr": "数据库密钥模板",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyModelNewVer",
+        "factory": "金融交易安全系统",
+        "object_name": "140号文加固的数据库-密钥模板"
+    },
+    {
+        "base_view_name": "140号文加固的DB表界面",
+        "base_view_name_abbr": "DB表安全策略",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "devPrjDataObjDef",
+        "factory": "金融交易安全系统",
+        "object_name": "140号文加固的DB表"
+    },
+    {
+        "base_view_name": "140号文DB表域加固策略界面",
+        "base_view_name_abbr": "DB表域安全策略",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "myPrdObjFldProStrategy",
+        "factory": "金融交易安全系统",
+        "object_name": "140号文DB表域加固策略"
+    },
+    {
+        "base_view_name": "DB表域保护策略运算配置界面",
+        "base_view_name_abbr": "表域策略运算配置",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "myPrdObjFldProStraCalcuConf",
+        "factory": "金融交易安全系统",
+        "object_name": "DB表域保护策略运算配置"
+    },
+    {
+        "base_view_name": "密码机组的密钥界面",
+        "base_view_name_abbr": "密码机组密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueNewVer",
+        "factory": "软件开发解决方案",
+        "object_name": "密码机组的密钥"
+    },
+    {
+        "base_view_name": "密码机的密钥界面",
+        "base_view_name_abbr": "密码机密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueNewVer",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机的密钥"
+    },
+    {
+        "base_view_name": "平台级的密钥界面",
+        "base_view_name_abbr": "平台级密钥",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "db_name": "keyValueNewVer",
+        "factory": "金融交易安全系统",
+        "object_name": "平台级的密钥"
+    },
+    {
+        "base_view_name": "密码机指令密码服务总线模板界面-部署",
+        "base_view_name_abbr": "管理出厂配置模板",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjComp1LvlItem",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机指令密码服务总线模板"
+    },
+    {
+        "base_view_name": "产品出厂缺省信息界面",
+        "base_view_name_abbr": "产品出厂缺省信息",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "hisuRunningEnvVar",
+        "factory": "睿颢软件开发框架",
+        "object_name": "产品出厂缺省信息"
+    },
+    {
+        "base_view_name": "密码服务中间件产品界面",
+        "base_view_name_abbr": "密码服务中间件",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码服务中间件产品"
+    },
+    {
+        "base_view_name": "密码机指令服务界面",
+        "base_view_name_abbr": "密码机指令服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机指令服务"
+    },
+    {
+        "base_view_name": "密码服务界面",
+        "base_view_name_abbr": "密码服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务"
+    },
+    {
+        "base_view_name": "密码服务中间件-密码服务接口界面",
+        "base_view_name_abbr": "密码服务接口",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompFunDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码服务中间件-密码服务接口"
+    },
+    {
+        "base_view_name": "密钥管理服务界面",
+        "base_view_name_abbr": "密钥管理服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密钥管理服务"
+    },
+    {
+        "base_view_name": "密码机组服务界面",
+        "base_view_name_abbr": "密码机组服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机组服务"
+    },
+    {
+        "base_view_name": "密码机服务界面",
+        "base_view_name_abbr": "密码机服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码机服务"
+    },
+    {
+        "base_view_name": "密码服务中间件-平台IT组件界面",
+        "base_view_name_abbr": "平台IT组件",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码服务中间件-平台IT组件"
+    },
+    {
+        "base_view_name": "配置管理服务界面",
+        "base_view_name_abbr": "配置管理服务标准",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "配置管理服务"
+    },
+    {
+        "base_view_name": "产品配置::配置管理服务发起入口资源界面",
+        "base_view_name_abbr": "配管服务发起资源",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDataObjDef",
+        "factory": "金融交易安全系统",
+        "object_name": "产品配置::配置管理服务发起入口资源"
+    },
+    {
+        "base_view_name": "产品配置::配置管理服务界面",
+        "base_view_name_abbr": "配置管理服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDataObjServiceDef",
+        "factory": "睿颢软件开发框架",
+        "object_name": "产品配置::配置管理服务"
+    },
+    {
+        "base_view_name": "配置管理服务框架控制参数界面",
+        "base_view_name_abbr": "配管框架控制参数",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "hisuRunningEnvVar",
+        "factory": "睿颢软件开发框架",
+        "object_name": "配置管理服务框架控制参数"
+    },
+    {
+        "base_view_name": "产品出厂数据库管理界面",
+        "base_view_name_abbr": "产品数据库",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "软件开发解决方案",
+        "object_name": "产品出厂数据库"
+    },
+    {
+        "base_view_name": "产品出厂数据库表类型界面",
+        "base_view_name_abbr": "数据库表类型",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDataObjCateDef",
+        "factory": "金融交易安全系统",
+        "object_name": "产品出厂数据库表类型"
+    },
+    {
+        "base_view_name": "产品出厂数据库表界面",
+        "base_view_name_abbr": "数据库表",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDataObjDef",
+        "factory": "软件开发解决方案",
+        "object_name": "产品出厂数据库表"
+    },
+    {
+        "base_view_name": "产品出厂数据库表服务界面",
+        "base_view_name_abbr": "数据库表服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjDataObjServiceDef",
+        "factory": "睿颢软件开发框架",
+        "object_name": "产品出厂数据库表服务"
+    },
+    {
+        "base_view_name": "产品的命令行命令管理界面",
+        "base_view_name_abbr": "命令行命令",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "产品的命令行命令"
+    },
+    {
+        "base_view_name": "产品的命令行服务管理界面",
+        "base_view_name_abbr": "命令行服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompFunDef",
+        "factory": "金融交易安全系统",
+        "object_name": "产品的命令行服务"
+    },
+    {
+        "base_view_name": "密码中间件-部署-机构类型界面",
+        "base_view_name_abbr": "机构类型",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码中间件-部署-机构类型"
+    },
+    {
+        "base_view_name": "密码中间件-部署-操作员角色界面",
+        "base_view_name_abbr": "操作角色",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "金融交易安全系统",
+        "object_name": "密码中间件-部署-操作员角色"
+    },
+    {
+        "base_view_name": "密码中间件-部署-身份载体界面",
+        "base_view_name_abbr": "身份认证载体",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "db_name": "devPrjCompDef",
+        "factory": "软件开发解决方案",
+        "object_name": "密码中间件-部署-身份载体"
+    }
+]

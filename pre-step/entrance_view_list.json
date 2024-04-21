@@ -1,0 +1,72 @@
+[
+    {
+        "base_view_name": "应用接入服务配置入口",
+        "base_view_name_abbr": "应用接入服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "密码服务配置入口",
+        "base_view_name_abbr": "密码服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "密钥管理服务配置入口",
+        "base_view_name_abbr": "密钥管理服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "密码机组服务配置管理入口",
+        "base_view_name_abbr": "密码机组服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "配置管理服务配置入口",
+        "base_view_name_abbr": "配置管理服务",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "产品基础配置管理入口",
+        "base_view_name_abbr": "产品基础配置",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "密码应用设计管理平台样式配置入口",
+        "base_view_name_abbr": "界面样式配置",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "主工作界面样式配置管理入口",
+        "base_view_name_abbr": "界面风格配置",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单"
+    },
+    {
+        "base_view_name": "金融140号文数据库加固管理入口",
+        "base_view_name_abbr": "数据库安全策略",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单"
+    },
+    {
+        "base_view_name": "平台级密钥档案管理入口",
+        "base_view_name_abbr": "平台级密钥档案",
+        "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单"
+    },
+    {
+        "base_view_name": "配置管理服务出厂配置管理入口",
+        "base_view_name_abbr": "配置管理服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单"
+    },
+    {
+        "base_view_name": "产品出厂数据库管理入口",
+        "base_view_name_abbr": "数据库服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单"
+    },
+    {
+        "base_view_name": "命令行服务管理入口",
+        "base_view_name_abbr": "命令行服务",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单"
+    },
+    {
+        "base_view_name": "密码服务中间件部署角色出厂配置管理",
+        "base_view_name_abbr": "角色管理",
+        "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单"
+    }
+]

@@ -1,6 +1,7 @@
 import json
 import time
 from base import login
+from base import common_operate
 
 start_time = time.time()
 
@@ -14,31 +15,35 @@ def get_login():
     return page, this_page, p
 
 
-def add_data_objects(page, this_page, dialog, object_name_abbr, object_name, db_id):
+def add_data_objects(page, this_page, dialog, object_name_abbr, object_name, db_id, current_classify):
     object_name = '密码服务中间件::' + object_name
     design_plan = '密码服务中间件'
-
     # 填写参数，批量增加
     dialog.locator('#compName').fill(object_name)
     dialog.locator('#serviceAddr').fill(object_name_abbr)
 
     # 点击右侧放大镜(属性lookupgroup=factory)选择
-
-    def dialog_search(page, name):
-        dialog_input = page.locator('.pageHeader p input')
-        dialog_input.fill(name)
-        dialog_input.press('Enter')
-        page.locator('.pageContent .gridScroller tr td').get_by_text(name, exact=True).dblclick()
-
     page.locator('.pageFormContent  p').locator('a[lookupgroup="数据对象管理界面.factory"]').click()
-    dialog_search(page, design_plan)
+    common_operate.dialog_search(page, design_plan)
     page.locator('.pageFormContent  p').locator('a[lookupgroup="数据对象管理界面.compSrlID"]').click()
-    dialog_search(page, db_id)
+    common_operate.dialog_search(page, db_id)
 
     # 新增一条
-    # page.locator('.formBar').get_by_text('增加').click()
-    # page.wait_for_timeout(500)
+    page.locator('.formBar').get_by_text('增加').click()
+    page.locator('#progressBar').wait_for(state='hidden')
 
+    error_box = page.locator('.formMsgError')
+    error_box_is_visible = error_box.is_visible()
+    print('error_box_is_visible：', error_box_is_visible)
+    if error_box_is_visible:
+        print('报错', error_box.inner_text())
+        error_box.wait_for(state='hidden')
+    else:
+        closes = page.locator('.formBar').get_by_text('闭').all()
+        for close in closes:
+            close.click()
+
+    # page.wait_for_timeout(500)
     # 全部新增完成后，申请任务
     # 返回一组工作任务简称
     # input('暂停 ~~~')
@@ -48,6 +53,7 @@ def reach_classify(page, this_page, p, business_name, project_model):
     page.locator('#开发工作管理二级菜单组').click()
     page.locator('#软件产品设计管理二级菜单组').click()
     page.locator('#软件产品设计管理二级菜单组~ul a[title="公司产品型号"]').click()
+    page.locator('#progressBar').wait_for(state='hidden')
     this_page.locator('tr td[title="' + project_model + '"]').click()
     this_page.locator('#业务框架').click()
     page.locator('#设计业务方案').click()
@@ -86,9 +92,16 @@ def create_view_plan(page, this_page, p, classify, last_one=False):
         child.click(button='right')
         page.locator('#dataCM').locator('li#任务管理').hover()
         page.locator('#showTreeNode').locator('li#数据视图任务').hover()
-        page.locator('#showTreeNode').locator('li#创建任务并加入产品进度').click()
-        page.locator('.toolBar').get_by_text('取消').click()
-        page.wait_for_timeout(500)
+        page.locator('#showTreeNode').locator('li#只创建初始任务').click()
+        page.locator('.toolBar').get_by_text('确定').click()
+        page.locator('#progressBar').wait_for(state='hidden')
+        error_box = page.locator('.alertInner h1').get_by_text('错误提示')
+        error_box_is_visible = error_box.is_visible()
+        if error_box_is_visible:
+            print('任务创建报错。跳出循环')
+            page.locator('.toolBar').get_by_text('确定').click()
+        else:
+            page.locator('.formBar').get_by_text('闭').click()
 
     this_page.locator('li.selected div').get_by_text('功能分类').click(button='right')
     page.locator('#dataCM').get_by_text('刷新该节点').click()
@@ -138,11 +151,12 @@ def __main__run():
                 open_add_view(page, this_page, p, current_classify, old_classify, True)
             page.wait_for_timeout(300)
             dialog = page.locator('.dialog')
-            add_data_objects(page, this_page, dialog, abbr, name, db_name)
+            add_data_objects(page, this_page, dialog, abbr, name, db_name, current_classify)
 
     # 跑完后，给最后一个分类创建视图任务
     create_view_plan(page, this_page, p, current_classify, True)
-    # 调整任务负责人
+
+
 
 __main__run()
 

@@ -16,7 +16,7 @@ def get_login():
 
 
 def add_data_objects(page, this_page, dialog, object_name_abbr, object_name, db_id, current_classify):
-    object_name = '密码服务中间件::' + object_name
+    object_name = '密码服务中间件::' + object_name.rstrip('界面')
     design_plan = '密码服务中间件'
     # 填写参数，批量增加
     dialog.locator('#compName').fill(object_name)

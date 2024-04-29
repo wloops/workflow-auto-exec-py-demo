@@ -152,21 +152,23 @@ def __main__run():
             name = entrance.get('base_view_name')
             abbr = entrance.get('base_view_name_abbr')
             print(f'开始：：{index}--{abbr}')
-            classify = entrance.get('classify').split(':')[0]
-            origin_children_view_list = entrance.get('origin_children_view_list')
-            old_classify = current_classify
-            refresh_classify_ul(page, this_page, p, True)
-            open_add_view(page, this_page, p, current_classify, False)
-            new_need_name_list = get_new_view_name(page, this_page, p, origin_children_view_list)
-            open_add_view(page, this_page, p, current_classify, True)
-            if current_classify != classify:
-                current_classify = classify
+            if index > 11:
+                classify = entrance.get('classify').split(':')[0]
+                origin_children_view_list = entrance.get('origin_children_view_list')
+                old_classify = current_classify
                 refresh_classify_ul(page, this_page, p, True)
-            page.wait_for_timeout(300)
-            dialog = page.locator('.dialog >> visible=true')
-            add_entrance_view(page, this_page, dialog, abbr, name, new_need_name_list, current_classify)
-            print(f'结束：：{index}--{abbr}')
-            # input('111')
+                open_add_view(page, this_page, p, current_classify, False)
+                new_need_name_list = get_new_view_name(page, this_page, p, origin_children_view_list)
+                open_add_view(page, this_page, p, current_classify, True)
+                if current_classify != classify:
+                    current_classify = classify
+                    refresh_classify_ul(page, this_page, p, True)
+                page.wait_for_timeout(300)
+                dialog = page.locator('.dialog >> visible=true')
+                add_entrance_view(page, this_page, dialog, abbr, name, new_need_name_list, current_classify)
+                print(f'结束：：{index}--{abbr}')
+                # input('111')
+
 
 
 __main__run()

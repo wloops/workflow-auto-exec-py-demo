@@ -39,7 +39,7 @@ def get_need_copy_views(_data, page, this_page, p, classify=''):
             base_view_name_abbr = view['meta']['title']
             base_view_name = view['meta']['tblAlias']
             if view['meta']['resId'] != 990 and base_view_name != 'viewDef':
-                factory, object_name, db_name, view_button, view_record_select_group, view_button_group = (
+                factory, object_name, db_name, view_button, view_record_select_group, view_button_group, operate_button = (
                     copied_base.get_copied_base_message(page, this_page, base_view_name))
                 main_view_list.append({
                     'base_view_name': base_view_name,
@@ -50,27 +50,29 @@ def get_need_copy_views(_data, page, this_page, p, classify=''):
                     'classify': classify if classify != '' else '',
                     'view_record_select_group': view_record_select_group,
                     'view_button_group': view_button_group,
-                    'view_button': view_button
+                    'view_button': view_button,
+                    'operate_button': operate_button
                 })
                 print(base_view_name_abbr + ':' + '基础开发方案 factory:', factory, '基础数据对象 objectName:',
                       object_name, '对应的数据库表:', db_name, '界面-缺省操作:', view_button, '界面-记录操作:', view_record_select_group,
-                      '界面操作：', view_button_group)
+                      '界面操作：', view_button_group, '操作按钮：', operate_button)
                 main_view_count += 1
                 # p.stop()
                 page.locator('#taskSetting').click()
                 page.wait_for_timeout(1000)
             elif view['meta']['resId'] == 990:
                 entrance_views_count += 1
-                origin_children_view_list = copied_base.get_entrance_view_base_message(page, this_page, base_view_name)
+                origin_children_view_list, operate_button = copied_base.get_entrance_view_base_message(page, this_page, base_view_name)
                 page.locator('#taskSetting').click()
                 page.wait_for_timeout(1000)
                 entrance_view_list.append({
                     'base_view_name': base_view_name,
                     'base_view_name_abbr': base_view_name_abbr,
                     'classify': classify if classify != '' else '',
-                    'origin_children_view_list': origin_children_view_list
+                    'origin_children_view_list': origin_children_view_list,
+                    'operate_button': operate_button
                 })
-                print('[入口菜单项]', base_view_name_abbr, base_view_name, '子界面列表：', origin_children_view_list)
+                print('[入口菜单项]', base_view_name_abbr, base_view_name, '子界面列表：', origin_children_view_list, '入口的按钮：', operate_button)
                 if not view['children']:
                     # classify_join_entrance = classify + '/' + base_view_name_abbr + ':' + base_view_name
                     get_need_copy_views(view['children'], page, this_page, p)
@@ -80,7 +82,7 @@ def get_need_copy_views(_data, page, this_page, p, classify=''):
     return
 
 
-def get_need_copy_views_one(origin):
+def __main__run(origin):
     page, this_page, p = get_login()
     for _data in origin:
         classify = _data['meta']['title'] + ':' + _data['meta']['tblAlias']
@@ -88,7 +90,7 @@ def get_need_copy_views_one(origin):
         # print(_data)
 
 
-get_need_copy_views_one(data)
+__main__run(data)
 
 print('main_view_list:', main_view_list)
 print('entrance_view_list:', entrance_view_list)

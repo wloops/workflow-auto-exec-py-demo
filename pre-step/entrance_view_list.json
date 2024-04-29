@@ -3,84 +3,100 @@
         "base_view_name": "应用接入服务配置入口",
         "base_view_name_abbr": "应用接入服务",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码服务端口模板-HSM无关界面-部署,设备无关密码服务接入端口界面,密码服务端口模板-HSM相关界面-部署,密码服务接口启动的内部端口界面,本地服务端口授权的密码服务界面"
     },
     {
         "base_view_name": "密码服务配置入口",
         "base_view_name_abbr": "密码服务",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码机指令密码服务总线模板界面-部署,指令相关密码服务总线-基于UID界面"
     },
     {
         "base_view_name": "密钥管理服务配置入口",
         "base_view_name_abbr": "密钥管理服务",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密钥管理服务端口配置模板界面-部署,密钥管理接口启动的服务端口界面"
     },
     {
         "base_view_name": "密码机组服务配置管理入口",
         "base_view_name_abbr": "密码机组服务",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码机组服务界面-部署,密码服务中间件-密码机组界面,密码机组服务总线-基于UID界面,密码服务中间件-密码机界面,密码机对接的密码机配置-租户界面"
     },
     {
         "base_view_name": "配置管理服务配置入口",
         "base_view_name_abbr": "配置管理服务",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "配置管理服务端口配置模板界面-部署,配置管理接口启动的服务端口界面"
     },
     {
         "base_view_name": "产品基础配置管理入口",
         "base_view_name_abbr": "产品基础配置",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码中间件-开发商部署环境界面,密码服务中间件-产品部署环境界面,密码中间件部署环境缺省HSM组界面"
     },
     {
         "base_view_name": "密码应用设计管理平台样式配置入口",
         "base_view_name_abbr": "界面样式配置",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [
+            "20230419-按月份"
+        ],
         "origin_children_view_list": "密码应用-主工作界面配置界面,密码应用-主界面根数据集配置界面,密码应用-二级菜单根数据集配置界面,密码应用-主界面快捷工作面板界面,密码应用-主界面统计数据集配置界面,密码应用-主界面设备状态数据集界面,密码应用-主界面图表界面"
     },
     {
         "base_view_name": "主工作界面样式配置管理入口",
         "base_view_name_abbr": "界面风格配置",
         "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "界面服务::界面的快捷菜单界面,界面服务::界面快捷菜单按钮界面,界面的数据量展示面板界面,界面数据量展示面板的数据集界面,界面的图表展示面板界面,界面图表展示面板展示的图表界面,界面服务::界面的根数据配置界面"
     },
     {
         "base_view_name": "金融140号文数据库加固管理入口",
         "base_view_name_abbr": "数据库安全策略",
         "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "140号文加固的数据库界面,140号文加固的数据库-密钥模板界面,140号文加固的DB表界面,140号文DB表域加固策略界面,DB表域保护策略运算配置界面"
     },
     {
         "base_view_name": "平台级密钥档案管理入口",
         "base_view_name_abbr": "平台级密钥档案",
         "classify": "平台密钥管理:密码平台-平台级密钥管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码机组的密钥界面,密码机的密钥界面,平台级的密钥界面"
     },
     {
         "base_view_name": "配置管理服务出厂配置管理入口",
         "base_view_name_abbr": "配置管理服务",
         "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "配置管理服务界面,产品配置::配置管理服务发起入口资源界面,产品配置::配置管理服务界面,配置管理服务框架控制参数界面"
     },
     {
         "base_view_name": "产品出厂数据库管理入口",
         "base_view_name_abbr": "数据库服务",
         "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "产品出厂数据库管理界面,产品出厂数据库表类型界面,产品出厂数据库表界面,产品出厂数据库表服务界面"
     },
     {
         "base_view_name": "命令行服务管理入口",
         "base_view_name_abbr": "命令行服务",
         "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "产品的命令行命令管理界面,产品的命令行服务管理界面"
     },
     {
         "base_view_name": "密码服务中间件部署角色出厂配置管理",
         "base_view_name_abbr": "角色管理",
         "classify": "产品出厂配置:密码服务中间件出厂配置管理二级菜单",
+        "operate_button": [],
         "origin_children_view_list": "密码中间件-部署-机构类型界面,密码中间件-部署-操作员角色界面,密码中间件-部署-身份载体界面"
     }
 ]

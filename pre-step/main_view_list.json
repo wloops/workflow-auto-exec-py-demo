@@ -6,6 +6,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "密码服务端口配置模板-HSM无关",
+        "operate_button": [
+            "20230422-开通服务端口"
+        ],
         "view_button": "删除记录",
         "view_button_group": "",
         "view_record_select_group": "1237设置启用菜单"
@@ -17,6 +20,7 @@
         "db_name": "hisuSocketSvrConf",
         "factory": "金融交易安全系统",
         "object_name": "设备无关密码服务接入端口",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "本地端口配置管理菜单组,本地端口启用管理菜单组"
@@ -28,6 +32,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "密码服务端口配置模板-HSM相关",
+        "operate_button": [
+            "20230422-开通服务端口"
+        ],
         "view_button": "删除记录",
         "view_button_group": "",
         "view_record_select_group": "1237设置启用菜单"
@@ -39,6 +46,7 @@
         "db_name": "hisuSocketSvrConf",
         "factory": "软件开发解决方案",
         "object_name": "密码服务接口启动的内部服务端口",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "本地端口配置管理菜单组,本地端口启用管理菜单组"
@@ -50,6 +58,7 @@
         "db_name": "localSckSvrAuthService",
         "factory": "睿颢软件开发框架",
         "object_name": "本地服务端口授权的服务",
+        "operate_button": [],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": "端口授权的联机服务管理菜单"
@@ -61,6 +70,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "密码机指令密码服务总线模板",
+        "operate_button": [
+            "20230422-创建服务总线"
+        ],
         "view_button": "删除记录,修改记录,增加记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -72,6 +84,7 @@
         "db_name": "hisuServiceChanelConf",
         "factory": "金融交易安全系统",
         "object_name": "指令相关密码服务总线-基于UID",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "服务通道共享内存菜单组",
         "view_record_select_group": "服务通道配置管理菜单组,密码服务密码机服务总线配置菜单组,统一密码服务平台密码服务总线配置菜单组,服务总线启用管理菜单"
@@ -83,6 +96,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "密钥管理服务端口配置模板",
+        "operate_button": [
+            "20230422-创建密钥端口"
+        ],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -94,6 +110,7 @@
         "db_name": "hisuSocketSvrConf",
         "factory": "软件开发解决方案",
         "object_name": "密钥管理接口启动的服务端口",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "密钥管理端口配置管理菜单组,本地端口启用管理菜单组"
@@ -105,6 +122,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码机组服务",
+        "operate_button": [],
         "view_button": "修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": "创建端口服务密码机组菜单,创建独立服务密码机组菜单,创建透传服务密码机组菜单"
@@ -116,6 +134,9 @@
         "db_name": "devPrjCompInst",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-密码机组",
+        "operate_button": [
+            "20230727-置为缺省"
+        ],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "密码平台-密码机组配置菜单,密码机组内密码机管理菜单,密码机组密钥管理菜单v20230424,密码机组启用管理菜单"
@@ -127,6 +148,7 @@
         "db_name": "hisuServiceChanelConf",
         "factory": "金融交易安全系统",
         "object_name": "密码机组服务总线-基于UID生成ID",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "服务通道共享内存菜单组",
         "view_record_select_group": "服务通道配置管理菜单组,密码服务密码机服务总线配置菜单组,统一密码服务平台密码服务总线配置菜单组"
@@ -138,6 +160,9 @@
         "db_name": "devPrjCompInst",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-密码机",
+        "operate_button": [
+            "20230927-删除密码机实例"
+        ],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -149,6 +174,9 @@
         "db_name": "hisuSocketClientConf",
         "factory": "软件开发解决方案",
         "object_name": "密码机对接的密码机配置-租户",
+        "operate_button": [
+            "20211019-修改密码机配置"
+        ],
         "view_button": "修改记录,查询所有记录",
         "view_button_group": "外部服务端口共享内存配置菜单组,端口对接授权加载菜单组",
         "view_record_select_group": "统一密码服务平台密码机配置菜单,0006设置状态菜单,外部服务端口指令测试菜单,1507密码机实时状态查询菜单,1507密码机实时状态监控菜单"
@@ -160,6 +188,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "配置管理服务端口配置模板",
+        "operate_button": [
+            "20230423-创建服务端口"
+        ],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": "1237设置启用菜单"
@@ -171,6 +202,7 @@
         "db_name": "hisuSocketSvrConf",
         "factory": "软件开发解决方案",
         "object_name": "配置管理接口启动的服务端口",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "本地端口服务加载菜单组,端口对接授权加载菜单组",
         "view_record_select_group": "本地端口配置管理菜单组"
@@ -182,6 +214,7 @@
         "db_name": "devPrjEnvDef",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-开发商部署环境",
+        "operate_button": [],
         "view_button": "增加记录,修改记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -193,6 +226,9 @@
         "db_name": "devPrjRunEnv",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-产品部署环境",
+        "operate_button": [
+            "20230807-备份部署环境"
+        ],
         "view_button": "修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -204,6 +240,7 @@
         "db_name": "devPrjRunEnvConf",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件部署环境缺省HSM组",
+        "operate_button": [],
         "view_button": "修改记录,删除记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -215,6 +252,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主工作界面配置",
+        "operate_button": [],
         "view_button": "修改记录,增加记录,删除记录",
         "view_button_group": "",
         "view_record_select_group": "密码平台-主操作界面LOGO菜单"
@@ -226,6 +264,9 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主界面根数据集配置",
+        "operate_button": [
+            "20230328-录入附加域清单"
+        ],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -237,6 +278,7 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-二级菜单根数据集配置",
+        "operate_button": [],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -248,6 +290,9 @@
         "db_name": "menuGrpItemDef",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主界面快捷工作面板",
+        "operate_button": [
+            "20230330-新增菜单项"
+        ],
         "view_button": "查询所有记录,查询记录,删除记录,修改记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": "密码应用-主界面快捷菜单图标管理菜单"
@@ -259,6 +304,7 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主界面统计数据集配置",
+        "operate_button": [],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -270,6 +316,7 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主界面设备状态数据集配置",
+        "operate_button": [],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -281,9 +328,24 @@
         "db_name": "menuGrpItemDef",
         "factory": "金融交易安全系统",
         "object_name": "密码应用-主界面图表",
+        "operate_button": [
+            "20230417-新增"
+        ],
         "view_button": "查询记录,查询所有记录,删除记录,修改记录",
         "view_button_group": "",
         "view_record_select_group": ""
+    },
+    {
+        "base_view_name": "单据及报表组件界面-运行",
+        "base_view_name_abbr": "按月份",
+        "classify": "产品配置管理:密码服务中间件部署二级菜单",
+        "db_name": "myPrdBllDef",
+        "factory": "软件开发解决方案",
+        "object_name": "单据及报表组件",
+        "operate_button": [],
+        "view_button": "",
+        "view_button_group": "",
+        "view_record_select_group": "报表高级功能菜单组-运行"
     },
     {
         "base_view_name": "界面服务::界面的快捷菜单界面",
@@ -292,6 +354,10 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "界面服务::界面的快捷菜单",
+        "operate_button": [
+            "20240128-测试-不带项目信息",
+            "20240128-测试-带项目信息"
+        ],
         "view_button": "增加记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -303,6 +369,7 @@
         "db_name": "devPrjCompConfBtn",
         "factory": "金融交易安全系统",
         "object_name": "界面服务::界面快捷菜单按钮",
+        "operate_button": [],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -314,6 +381,10 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "界面的数据量展示面板",
+        "operate_button": [
+            "20240125-测试-不带项目信息",
+            "20240125-测试-带项目信息"
+        ],
         "view_button": "增加记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -325,6 +396,7 @@
         "db_name": "devPrjCompConfDataGrp",
         "factory": "金融交易安全系统",
         "object_name": "界面数据量展示面板的数据集",
+        "operate_button": [],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -336,6 +408,10 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "界面服务::界面的图表展示面板",
+        "operate_button": [
+            "20240129-测试-不带项目信息",
+            "20240129-测试-带项目信息"
+        ],
         "view_button": "增加记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -347,6 +423,9 @@
         "db_name": "devPrjCompConfDataGrp",
         "factory": "金融交易安全系统",
         "object_name": "界面服务::界面图表展示面板展示的图表",
+        "operate_button": [
+            "20240129-测试-带项目信息"
+        ],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -358,6 +437,10 @@
         "db_name": "devPrjCompConf",
         "factory": "金融交易安全系统",
         "object_name": "界面服务::界面的根数据配置",
+        "operate_button": [
+            "20240126-测试数据-不带产品信息",
+            "20240126-测试数据-带产品信息"
+        ],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -369,6 +452,7 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-审批申请",
+        "operate_button": [],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "审批密钥生成申请通用菜单"
@@ -380,6 +464,9 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-随机生成",
+        "operate_button": [
+            "20230610-随机生成密钥"
+        ],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -391,6 +478,9 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-导入对称密钥",
+        "operate_button": [
+            "20230703-由一个成分合成"
+        ],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -402,6 +492,9 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-录入LMK加密的密文",
+        "operate_button": [
+            "20230703-录入LMK加密的密文"
+        ],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -413,6 +506,9 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-准备成份",
+        "operate_button": [
+            "20230705-完成准备"
+        ],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -424,6 +520,7 @@
         "db_name": "keyValueOper",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥操作-HSM上录入",
+        "operate_button": [],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -435,6 +532,10 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "140号文加固的数据库",
+        "operate_button": [
+            "20230529-创建自定义隐私策略",
+            "20230525-创建缺省隐私策略"
+        ],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "密码应用平台-数据库设计菜单组,项目IT组件设计预览菜单组,IT组件设计助手菜单组-简洁"
@@ -446,6 +547,9 @@
         "db_name": "keyModelNewVer",
         "factory": "金融交易安全系统",
         "object_name": "140号文加固的数据库-密钥模板",
+        "operate_button": [
+            "20230716-申请创建密钥"
+        ],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "密码模板设计菜单,密码应用-通用的密钥模板设计助手菜单"
@@ -457,6 +561,7 @@
         "db_name": "devPrjDataObjDef",
         "factory": "金融交易安全系统",
         "object_name": "140号文加固的DB表",
+        "operate_button": [],
         "view_button": "修改记录",
         "view_button_group": "",
         "view_record_select_group": "密码应用平台-数据库表设计菜单组"
@@ -468,6 +573,10 @@
         "db_name": "myPrdObjFldProStrategy",
         "factory": "金融交易安全系统",
         "object_name": "140号文DB表域加固策略",
+        "operate_button": [
+            "20231226-修改",
+            "20230612-删除DB表域加固策略"
+        ],
         "view_button": "增加记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -479,6 +588,7 @@
         "db_name": "myPrdObjFldProStraCalcuConf",
         "factory": "金融交易安全系统",
         "object_name": "DB表域保护策略运算配置",
+        "operate_button": [],
         "view_button": "删除记录,修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -490,6 +600,7 @@
         "db_name": "keyValueNewVer",
         "factory": "金融交易安全系统",
         "object_name": "密码机组的密钥",
+        "operate_button": [],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "密钥实例操作申请菜单组,密钥实例管理菜单组,密钥实例操生命周期管理菜单"
@@ -501,6 +612,7 @@
         "db_name": "keyValueNewVer",
         "factory": "金融交易安全系统",
         "object_name": "密码机的密钥",
+        "operate_button": [],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "密钥实例操作申请菜单组,密钥实例管理菜单组,密钥实例操生命周期管理菜单"
@@ -512,6 +624,9 @@
         "db_name": "keyValueNewVer",
         "factory": "金融交易安全系统",
         "object_name": "平台级的密钥",
+        "operate_button": [
+            "20230612-同步密钥成份加密密钥"
+        ],
         "view_button": "查询记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "密钥实例操作申请菜单组,密钥实例管理菜单组,密钥实例操生命周期管理菜单"
@@ -523,6 +638,9 @@
         "db_name": "devPrjComp1LvlItem",
         "factory": "金融交易安全系统",
         "object_name": "密码机指令密码服务总线模板",
+        "operate_button": [
+            "20230422-创建服务总线"
+        ],
         "view_button": "删除记录,修改记录,增加记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -534,6 +652,7 @@
         "db_name": "hisuRunningEnvVar",
         "factory": "睿颢软件开发框架",
         "object_name": "产品出厂缺省信息",
+        "operate_button": [],
         "view_button": "修改记录,查询所有记录",
         "view_button_group": "运行变量管理菜单组",
         "view_record_select_group": "运行变量备份菜单组"
@@ -545,6 +664,7 @@
         "db_name": "devPrjDef",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件产品",
+        "operate_button": [],
         "view_button": "",
         "view_button_group": "",
         "view_record_select_group": "密码服务中间件产品出厂配置菜单"
@@ -556,6 +676,10 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码机指令服务",
+        "operate_button": [
+            "20230609-执行测试案例",
+            "20230608-设计指令服务"
+        ],
         "view_button": "修改记录,增加记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": "密码机指令服务设计菜单组,研发项目IT组件设计助手菜单组"
@@ -567,6 +691,10 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码服务",
+        "operate_button": [
+            "20230609-执行测试案例",
+            "20230609-设计密码服务"
+        ],
         "view_button": "增加记录,复制记录,修改记录",
         "view_button_group": "",
         "view_record_select_group": "密码服务设计菜单组,IT组件设计助手菜单组-简洁"
@@ -578,6 +706,10 @@
         "db_name": "devPrjCompFunDef",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-密码服务接口",
+        "operate_button": [
+            "20230609-执行测试案例",
+            "20230609-设计密码服务接口"
+        ],
         "view_button": "查询所有记录,修改记录,查询记录",
         "view_button_group": "",
         "view_record_select_group": "联机服务的so文件管理菜单组,密码服务授权管理菜单"
@@ -589,6 +721,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密钥管理服务",
+        "operate_button": [],
         "view_button": "修改记录,增加记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -600,6 +733,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码机组服务",
+        "operate_button": [],
         "view_button": "修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": "密码机组服务设计菜单组,研发项目IT组件设计助手菜单组"
@@ -611,6 +745,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码机服务",
+        "operate_button": [],
         "view_button": "修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": "密码机服务设计菜单组,研发项目IT组件设计助手菜单组"
@@ -622,6 +757,10 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码服务中间件-平台IT组件",
+        "operate_button": [
+            "20230610-创建IT组件密钥",
+            "20230610-设计平台IT组件"
+        ],
         "view_button": "复制记录,修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": "研发项目IT组件设计助手菜单组"
@@ -633,6 +772,9 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "配置管理服务",
+        "operate_button": [
+            "20230424-设计配置模板"
+        ],
         "view_button": "修改记录,删除记录,复制记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -644,6 +786,7 @@
         "db_name": "devPrjDataObjDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品配置::配置管理服务发起入口资源",
+        "operate_button": [],
         "view_button": "增加记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -655,6 +798,7 @@
         "db_name": "devPrjDataObjServiceDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品配置::配置管理服务",
+        "operate_button": [],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -666,6 +810,7 @@
         "db_name": "hisuRunningEnvVar",
         "factory": "睿颢软件开发框架",
         "object_name": "配置管理服务框架控制参数",
+        "operate_button": [],
         "view_button": "修改记录,查询所有记录",
         "view_button_group": "运行变量管理菜单组",
         "view_record_select_group": "运行变量备份菜单组"
@@ -677,6 +822,7 @@
         "db_name": "devPrjCompDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品出厂数据库",
+        "operate_button": [],
         "view_button": "增加记录,修改记录,删除记录,复制记录",
         "view_button_group": "",
         "view_record_select_group": "出厂数据库设计菜单,出厂数据库表分类管理菜单,出厂数据库表管理菜单"
@@ -688,6 +834,7 @@
         "db_name": "devPrjDataObjCateDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品出厂数据库表类型",
+        "operate_button": [],
         "view_button": "删除记录,复制记录,修改记录,查询所有记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -699,6 +846,7 @@
         "db_name": "devPrjDataObjDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品出厂数据库表",
+        "operate_button": [],
         "view_button": "删除记录,复制记录,修改记录,增加记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "数据库表出厂服务管理菜单"
@@ -710,6 +858,7 @@
         "db_name": "devPrjDataObjServiceDef",
         "factory": "睿颢软件开发框架",
         "object_name": "产品出厂数据库表服务",
+        "operate_button": [],
         "view_button": "增加记录,删除记录,复制记录,修改记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "1410设置完成后触发命令菜单,1410设置启用菜单"
@@ -721,6 +870,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "产品的命令行命令",
+        "operate_button": [],
         "view_button": "修改记录,查询所有记录",
         "view_button_group": "登记1.x共享内存管理程序菜单,命令行命令共享内存映像管理菜单",
         "view_record_select_group": "命令行命令设计管理菜单"
@@ -732,6 +882,7 @@
         "db_name": "devPrjCompFunDef",
         "factory": "金融交易安全系统",
         "object_name": "产品的命令行服务",
+        "operate_button": [],
         "view_button": "修改记录,查询所有记录,删除记录",
         "view_button_group": "",
         "view_record_select_group": ""
@@ -743,6 +894,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码中间件-部署-机构类型",
+        "operate_button": [],
         "view_button": "查询所有记录,修改记录,增加记录",
         "view_button_group": "",
         "view_record_select_group": "密码应用-机构类型管理菜单组"
@@ -754,6 +906,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码中间件-部署-操作员角色",
+        "operate_button": [],
         "view_button": "复制记录,修改记录,增加记录,查询所有记录",
         "view_button_group": "",
         "view_record_select_group": "密码应用-操作员角色管理菜单组"
@@ -765,6 +918,7 @@
         "db_name": "devPrjCompDef",
         "factory": "金融交易安全系统",
         "object_name": "密码中间件-部署-身份载体",
+        "operate_button": [],
         "view_button": "查询所有记录,复制记录,修改记录,增加记录,删除记录",
         "view_button_group": "",
         "view_record_select_group": ""

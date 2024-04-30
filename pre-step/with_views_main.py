@@ -12,16 +12,6 @@ with open('publish.json', 'r', encoding='utf-8') as file:
     publish_params = json.load(file)
 
 
-def get_login():
-    login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
-    login_username = 'lwl'
-    login_password = 'lwl123'
-    headless = False
-    page, this_page, p = login.login(login_url, login_username, login_password, headless)
-    page.locator('#progressBar').wait_for(state='hidden')
-    return page, this_page, p
-
-
 def start_main(page, this_page, p, object_name_abbr, view_button, factory, comp_srl_id):
     # object_name_abbr = '低性能端口模板'
     # view_button = '增加记录,删除记录'
@@ -156,7 +146,7 @@ def start_main(page, this_page, p, object_name_abbr, view_button, factory, comp_
 
 
 def __main__run():
-    page, this_page, p = get_login()
+    page, this_page, p = login.get_login()
     task_id = 0
     for index, view in enumerate(main_view_list):
         object_name_abbr = view.get('base_view_name_abbr')

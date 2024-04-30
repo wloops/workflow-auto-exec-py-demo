@@ -1,10 +1,7 @@
 from base import login
 
-login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
-login_username = 'lwl'
-login_password = 'lwl123'
-headless = False
-page, this_page, p = login.login(login_url, login_username, login_password, headless)
+page, this_page, p = login.get_login()
+
 
 page.locator('#我的工作管理二级菜单').click()
 page.locator('#我的工作任务管理入口').click()

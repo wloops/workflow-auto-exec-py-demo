@@ -20,8 +20,18 @@ def login(url, username, password, headless=False):
     page.wait_for_timeout(1000)
 
     page.locator('#taskSetting').click()
+    page.locator('#progressBar').wait_for(state='hidden')
     # 绑定当前标签页
     this_page = page.locator('.page.unitBox[style="display: block;"]')
 
+    return page, this_page, p
+
+
+def get_login(set_headless=False):
+    login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
+    login_username = 'lwl'
+    login_password = 'lwl123'
+    headless = set_headless
+    page, this_page, p = login(login_url, login_username, login_password, headless)
     return page, this_page, p
 

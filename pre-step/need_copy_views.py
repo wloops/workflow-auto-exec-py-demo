@@ -9,15 +9,6 @@ with open('data.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 
-def get_login():
-    login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
-    login_username = 'lwl'
-    login_password = 'lwl123'
-    headless = False
-    page, this_page, p = login.login(login_url, login_username, login_password, headless)
-    return page, this_page, p
-
-
 # def does_not_contain_any_substrings(main_string, substrings):
 #     return all(substring not in main_string for substring in substrings)
 
@@ -84,7 +75,7 @@ def get_need_copy_views(_data, page, this_page, p, classify=''):
 
 
 def __main__run(origin):
-    page, this_page, p = get_login()
+    page, this_page, p = login.get_login()
     for _data in origin:
         classify = _data['meta']['title'] + ':' + _data['meta']['tblAlias']
         get_need_copy_views(_data['children'], page, this_page, p, classify)

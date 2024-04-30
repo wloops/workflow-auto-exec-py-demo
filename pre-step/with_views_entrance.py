@@ -14,15 +14,6 @@ with open('publish.json', 'r', encoding='utf-8') as file:
     publish_params = json.load(file)
 
 
-def get_login():
-    login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
-    login_username = 'lwl'
-    login_password = 'lwl123'
-    headless = False
-    page, this_page, p = login.login(login_url, login_username, login_password, headless)
-    return page, this_page, p
-
-
 def get_new_view_name(page, this_page, p, origin_children_view_list):
     origin_list = origin_children_view_list.split(',')
     name_abbr_list = []
@@ -140,7 +131,7 @@ def add_entrance_view(page, this_page, dialog, abbr, name, origin_children_view_
 
 
 def __main__run():
-    page, this_page, p = get_login()
+    page, this_page, p = login.get_login()
     current_classify = entrance_view_list[0].get('classify').split(':')[0]
     business_name = publish_params['business_name']['value']
     project_model = publish_params['project_model']['value']

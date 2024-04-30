@@ -6,15 +6,6 @@ from base import common_operate
 start_time = time.time()
 
 
-def get_login():
-    login_url = 'http://work.paytunnel.cn:19060/gms-v4/selectSystem?key=developmentServerTest121'
-    login_username = 'lwl'
-    login_password = 'lwl123'
-    headless = False
-    page, this_page, p = login.login(login_url, login_username, login_password, headless)
-    return page, this_page, p
-
-
 def add_data_objects(page, this_page, dialog, object_name_abbr, object_name, db_id, current_classify):
     object_name = '密码服务中间件::' + object_name.rstrip('界面')
     design_plan = '密码服务中间件'
@@ -131,7 +122,7 @@ with open('publish.json', 'r', encoding='utf-8') as file:
 
 
 def __main__run():
-    page, this_page, p = get_login()
+    page, this_page, p = login.get_login()
     current_classify = main_view_list[0].get('classify').split(':')[0]
     business_name = publish_params['business_name']['value']
     project_model = publish_params['project_model']['value']
@@ -155,7 +146,6 @@ def __main__run():
 
     # 跑完后，给最后一个分类创建视图任务
     create_view_plan(page, this_page, p, current_classify, True)
-
 
 
 __main__run()

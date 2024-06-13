@@ -3,16 +3,24 @@
     "label": "型号",
     "value": "Splenwise密码服务中间件"
   },
+  "business_type": {
+    "label": "设计界面业务类型",
+    "value": "业务"
+  },
   "business_name": {
-    "label": "业务",
+    "label": "设计界面的业务",
     "value": "密码服务中间件::部署管理"
   },
+  "it_unit_type": {
+    "label": "设计界面组件类型（IT组件类型）",
+    "value": "工作站"
+  },
   "it_unit_name": {
-    "label": "IT组件",
+    "label": "设计界面的IT组件（IT组件）",
     "value": "密码服务中间件部署管理工作站"
   },
   "it_unit_abbr": {
-    "label": "IT组件别名",
+    "label": "设计界面组件别名（IT组件别名）",
     "value": "密码服务中间件部署管理工作站"
   },
   "dest_env": {
